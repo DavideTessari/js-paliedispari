@@ -36,9 +36,9 @@ function determinaVincitore(sceltaUtente, numeroUtente, numeroComputer) {
     // Controlla chi ha vinto in base alla scelta dell'utente e al risultato della somma
     if ((sceltaUtente === 'pari' && isEven(sum)) || 
         (sceltaUtente === 'dispari' && !isEven(sum))) {
-        return `Hai vinto! La somma risula essere ${sum} è ${risultato}.`;
+        return `Hai vinto! La somma risula essere ${sum} è ${risultato}👌.`;
     } else {
-        return `Hai perso! La somma risulta essere ${sum} è ${risultato}.`;
+        return `Hai perso! La somma risulta essere ${sum} è ${risultato}😥.`;
     }
 }
 
